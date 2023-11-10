@@ -1,5 +1,7 @@
 # subnet_seller
 
+Algorithm coded for .NET or PowerShell applications/scripts to manage a Network subnet (sell/restore/resell subnets) from a supernet.
+
 ## Usage
 ```
 $mySub = New-Subnet '192.168.0.0' 16 6 26
