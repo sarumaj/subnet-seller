@@ -87,7 +87,7 @@ $mySub.print()
 
 ## Snapshots
 
-### #1 192.168.0.0/29 split down from /29 to /32
+### #1 192.168.0.0/27 split down from /29 to /32
 ![test](plantuml/output/%230%20init%20192.168.0.0%20from%2029%20to%2032.png)
 
 ### #2 Sold 192.168.0.0/30
