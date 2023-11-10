@@ -2,6 +2,14 @@
 
 Algorithm coded for .NET or PowerShell applications/scripts to manage a network subnet (sell/restore/resell subnets) from a supernet.
 
+## Installation
+
+```shell
+$ git clone https://github.com/sarumaj/subnet-seller
+$ cd subnet-seller
+$ Invoke-Command -FilePath .\install.ps1
+```
+
 ## Usage
 ```
 $mySub = New-Subnet '192.168.0.0' 16 6 26
