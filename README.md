@@ -4,14 +4,14 @@ Algorithm coded for .NET or PowerShell applications/scripts to manage a network 
 
 ## Installation
 
-```shell
+```powershell
 PS git clone https://github.com/sarumaj/subnet-seller
 PS cd subnet-seller
 PS Invoke-Command -FilePath .\install.ps1
 ```
 
 ## Usage
-```
+```powershell
 PS $mySub = New-Subnet '192.168.0.0' 16 6 26
 PS Write-Host ($mySub | Out-String)
 >> 
