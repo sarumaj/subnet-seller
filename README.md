@@ -1,4 +1,4 @@
-# subnet_seller
+# subnet-seller
 
 Algorithm coded for .NET or PowerShell applications/scripts to manage a network subnet (sell/restore/resell subnets) from a supernet.
 
