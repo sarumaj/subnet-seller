@@ -1,6 +1,6 @@
 # subnet_seller
 
-Algorithm coded for .NET or PowerShell applications/scripts to manage a Network subnet (sell/restore/resell subnets) from a supernet.
+Algorithm coded for .NET or PowerShell applications/scripts to manage a network subnet (sell/restore/resell subnets) from a supernet.
 
 ## Usage
 ```
@@ -76,3 +76,17 @@ $mySub.print()
 >> --------------------192.168.3.192/26(Available:True)
 >> ...
 ```
+
+## Snapshots
+
+### #1 192.168.0.0/29 split down from /29 to /32
+![test](plantuml/output/%230%20init%20192.168.0.0%20from%2029%20to%2032.png)
+
+### #2 Sold 192.168.0.0/30
+![test](plantuml/output/%231%20sold%20192.168.0.0_30.png)
+
+### #3 Sold 192.168.0.8/31
+![test](plantuml/output/%232%20sold%20192.168.0.8_31.png)
+
+### #4 Repurchased 192.168.0.8/31
+![test](plantuml/output/%233%20repurchased%20192.168.0.8_31.png)
