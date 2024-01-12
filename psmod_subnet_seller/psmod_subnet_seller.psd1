@@ -21,13 +21,13 @@ ModuleVersion = '1.0.0'
 GUID = '0f3be166-1508-4c5e-b769-57ea129156ec'
 
 # Author of this module
-Author = 'uid40324'
+Author = 'Dawid Ciepiela'
 
 # Company or vendor of this module
-CompanyName = 'Continental Automotive Technologies GmbH'
+CompanyName = ''
 
 # Copyright statement for this module
-Copyright = '(c) Continental Automotive Technologies GmbH. All rights reserved.'
+Copyright = '(c) 2023, Dawid Ciepiela. All rights reserved.'
 
 # Description of the functionality provided by this module
 # Description = ''
